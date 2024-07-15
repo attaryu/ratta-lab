@@ -10,9 +10,11 @@ const config: Config = {
     extend: {
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
+        'bebas-neue': ['Bebas Neue', 'sans-serif'],
       },
     },
   },
   plugins: [],
 };
+
 export default config;

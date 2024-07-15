@@ -1,8 +1,15 @@
 import type { Metadata } from 'next';
-import { Poppins } from 'next/font/google';
+import { Bebas_Neue, Poppins } from 'next/font/google';
 import './globals.css';
 
-const poppins = Poppins({ weight: ['300', '400', '500', '600', '700'] });
+const poppins = Poppins({
+	weight: ['300', '400', '500', '600', '700'],
+	subsets: ['latin'],
+});
+const bebasNeue = Bebas_Neue({
+	weight: '400',
+	subsets: ['latin'],
+});
 
 export const metadata: Metadata = {
 	title: 'Ratta Labolatory',
@@ -16,7 +23,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={poppins.className}>
+			<body className={`${poppins.className} ${bebasNeue.className}`}>
 				{children}
 				<footer className="px-8">
 					<small className="text-sm mt-12">
@@ -26,7 +33,7 @@ export default function RootLayout({
 							target="_blank"
 							className="underline"
 						>
-							M Attar's
+							M Attar&apos;s
 						</a>{' '}
             site.
 					</small>

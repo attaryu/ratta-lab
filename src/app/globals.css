@@ -3,7 +3,13 @@
 @tailwind utilities;
 
 @layer base {
-  p {
+  * {
     @apply font-poppins
+  }
+}
+
+@layer utilities {
+  .debug {
+    @apply outline outline-1 outline-red-600
   }
 }

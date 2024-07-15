@@ -10,7 +10,7 @@ export default function Home() {
 				<p className="mt-8 text-lg">
 					This site is for my front-end animation experiments. With Next JS, I
 					use GSAP and Frame Motion for now. I hope my experiments inspired you
-					to make something cool! Let's look at my experiments below
+					to make something cool! Let&apos;s look at my experiments below
 				</p>
 
 				<ul className="mt-8 flex flex-wrap w-full gap-3">
