@@ -1,4 +1,14 @@
+import Link from 'next/link';
+
 export default function Home() {
+	const creations = [
+		{
+			id: 1,
+			title: 'Reveal',
+			link: '/reveal',
+		},
+	];
+
 	return (
 		<main className="p-8">
 			<article>
@@ -14,22 +24,16 @@ export default function Home() {
 				</p>
 
 				<ul className="mt-8 flex flex-wrap w-full gap-3">
-					<li>
-						<a
-							href="/#"
-							className="px-4 py-2 block border border-zinc-900 rounded-full"
-						>
-							Hover
-						</a>
-					</li>
-					<li>
-						<a
-							href="/#"
-							className="px-4 py-2 block border border-zinc-900 rounded-full"
-						>
-							Grid
-						</a>
-					</li>
+					{creations.map((object) => (
+						<li key={object.id}>
+							<Link
+								href={object.link}
+								className="px-4 py-2 block border border-zinc-900 rounded-full"
+							>
+								{object.title}
+							</Link>
+						</li>
+					))}
 				</ul>
 			</article>
 		</main>
