@@ -7,6 +7,11 @@ export default function Home() {
 			title: 'Reveal',
 			link: '/reveal',
 		},
+		{
+			id: 2,
+			title: 'Reveal 2',
+			link: '/reveal-2',
+		},
 	];
 
 	return (

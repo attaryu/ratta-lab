@@ -4,7 +4,7 @@
 
 @layer base {
   * {
-    @apply font-poppins
+    @apply font-poppins font-normal
   }
 }
 

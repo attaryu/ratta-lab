@@ -9,8 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        'poppins': ['Poppins', 'sans-serif'],
-        'bebas-neue': ['Bebas Neue', 'sans-serif'],
+        'poppins': ['var(--poppins)'],
+        'bebas-neue': ['var(--bebas-neue)'],
       },
     },
   },

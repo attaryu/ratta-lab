@@ -5,10 +5,12 @@ import './globals.css';
 const poppins = Poppins({
 	weight: ['300', '400', '500', '600', '700'],
 	subsets: ['latin'],
+	variable: '--poppins',
 });
 const bebasNeue = Bebas_Neue({
 	weight: '400',
 	subsets: ['latin'],
+	variable: '--bebas-neue',
 });
 
 export const metadata: Metadata = {
@@ -23,7 +25,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={`${poppins.className} ${bebasNeue.className}`}>
+			<body className={`${poppins.variable} ${bebasNeue.variable}`}>
 				{children}
 				<footer className="px-8">
 					<small className="text-sm mt-12">
