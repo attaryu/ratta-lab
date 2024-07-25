@@ -92,15 +92,15 @@ export default function Page() {
 					<span ref={counterElement}>0</span>
 					<span>%</span>
 				</p>
-				<p className="text-white">pretend to load...</p>
+				<p className="text-white font-poppins">pretend to load...</p>
 			</div>
 
 			{/* main layer */}
 			<div className="container mx-auto px-4 pb-10">
 				<nav className="w-full flex justify-between py-4">
-					<a href="/#">Project</a>
-					<a href="/#">About</a>
-					<a href="/#">Contact</a>
+					<a href="/#" className="font-poppins">Project</a>
+					<a href="/#" className="font-poppins">About</a>
+					<a href="/#" className="font-poppins">Contact</a>
 				</nav>
 
 				<div className="w-full">
@@ -112,7 +112,7 @@ export default function Page() {
 					<h1 className="font-bebas-neue text-[18vw] leading-none">
 						MALEFI STUDIO.
 					</h1>
-					<p className="text-[2vw] -mt-6">
+					<p className="text-[2vw] -mt-6 font-poppins">
 						Transforming Art into Digital Mastery
 					</p>
 				</div>

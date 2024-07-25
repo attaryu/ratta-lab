@@ -28,7 +28,7 @@ export default function RootLayout({
 			<body className={`${poppins.variable} ${bebasNeue.variable}`}>
 				{children}
 				<footer className="px-8">
-					<small className="text-sm mt-12">
+					<small className="text-sm mt-12 font-poppins">
 						Part of{' '}
 						<a
 							href="https://m-attar.vercel.app"

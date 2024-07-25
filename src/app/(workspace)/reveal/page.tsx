@@ -96,9 +96,9 @@ export default function Page() {
 
 			<div className="container mx-auto relative">
 				<nav className="sticky top-0 flex justify-between py-6">
-					<a href="/#">About</a>
-					<a href="/#">Contact</a>
-					<a href="/#">Playground</a>
+					<a href="/#" className="font-poppins">About</a>
+					<a href="/#" className="font-poppins">Contact</a>
+					<a href="/#" className="font-poppins">Playground</a>
 				</nav>
 
 				<div className="w-full flex justify-center h-fit overflow-hidden selection:bg-zinc-900 selection:text-white">

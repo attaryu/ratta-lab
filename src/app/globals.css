@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  * {
-    @apply font-poppins font-normal
-  }
-}
-
 @layer utilities {
   .debug {
     @apply outline outline-1 outline-red-600
