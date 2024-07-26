@@ -12,17 +12,22 @@ export default function Home() {
 			title: 'Reveal 2',
 			link: '/reveal-2',
 		},
+		{
+			id: 3,
+			title: 'Text Reveal',
+			link: '/text-reveal',
+		},
 	];
 
 	return (
 		<main className="p-8">
 			<article>
-				<h1 className="font-semibold text-5xl">
+				<h1 className="font-semibold text-5xl font-poppins">
 					Hello Everyone! <br />
 					Welcome to Ratta Lab!
 				</h1>
 
-				<p className="mt-8 text-lg">
+				<p className="mt-8 text-lg font-poppins">
 					This site is for my front-end animation experiments. With Next JS, I
 					use GSAP and Frame Motion for now. I hope my experiments inspired you
 					to make something cool! Let&apos;s look at my experiments below
