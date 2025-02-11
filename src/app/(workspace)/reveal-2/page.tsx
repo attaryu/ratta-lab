@@ -47,24 +47,22 @@ export default function Page() {
 			}, 400);
 
 			animatedElement?.addEventListener('complete', () => {
-				setTimeout(() => {
-					gsap
-						.timeline()
-						.to('.lottie', { display: 'none', duration: 0 })
-						.to('.zoomer', { display: 'block', duration: 0 })
-						.to('.logo-container', {
-							width: '750%',
-							duration: 2,
-							ease: 'power4.inOut',
-						})
-						.to('.loading-container', { autoAlpha: 0 })
-						.to('.loading-container', { display: 'none' })
-						.to('.outer-container', {
-							overflow: 'auto',
-							height: 'auto',
-							duration: 0,
-						});
-				}, 400);
+				gsap
+					.timeline()
+					.to('.lottie', { display: 'none', duration: 0 })
+					.to('.zoomer', { display: 'block', duration: 0 })
+					.to('.logo-container', {
+						width: '750%',
+						duration: 2,
+						ease: 'power4.inOut',
+					})
+					.to('.loading-container', { autoAlpha: 0 }, '<80%')
+					.to('.loading-container', { display: 'none' })
+					.to('.outer-container', {
+						overflow: 'auto',
+						height: 'auto',
+						duration: 0,
+					});
 			});
 		}
 
