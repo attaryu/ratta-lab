@@ -7,6 +7,7 @@ const poppins = Poppins({
 	subsets: ['latin'],
 	variable: '--poppins',
 });
+
 const bebasNeue = Bebas_Neue({
 	weight: '400',
 	subsets: ['latin'],
@@ -27,6 +28,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={`${poppins.variable} ${bebasNeue.variable}`}>
 				{children}
+				
 				<footer className="px-8">
 					<small className="text-sm mt-12 font-poppins">
 						Part of{' '}
