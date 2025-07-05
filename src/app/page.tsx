@@ -17,6 +17,11 @@ export default function Home() {
 			title: 'Text Reveal',
 			link: '/text-reveal',
 		},
+		{
+			id: 4,
+			title: 'Expand Card',
+			link: '/expand-card',
+		},
 	];
 
 	return (
