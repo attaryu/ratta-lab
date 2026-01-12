@@ -63,16 +63,16 @@ export default function Page() {
       </p>
 
       <h1 className="flex z-10 fixed inset-0">
-        <div className="bar-1 w-[10%] h-[100vh] bg-zinc-900" />
-        <div className="bar-2 w-[10%] h-[100vh] bg-zinc-900" />
-        <div className="bar-3 w-[10%] h-[100vh] bg-zinc-900" />
-        <div className="bar-4 w-[10%] h-[100vh] bg-zinc-900" />
-        <div className="bar-5 w-[10%] h-[100vh] bg-zinc-900" />
-        <div className="bar-6 w-[10%] h-[100vh] bg-zinc-900" />
-        <div className="bar-7 w-[10%] h-[100vh] bg-zinc-900" />
-        <div className="bar-8 w-[10%] h-[100vh] bg-zinc-900" />
-        <div className="bar-9 w-[10%] h-[100vh] bg-zinc-900" />
-        <div className="bar-10 w-[10%] h-[100vh] bg-zinc-900" />
+        <div className="bar-1 w-[10%] h-screen bg-zinc-900" />
+        <div className="bar-2 w-[10%] h-screen bg-zinc-900" />
+        <div className="bar-3 w-[10%] h-screen bg-zinc-900" />
+        <div className="bar-4 w-[10%] h-screen bg-zinc-900" />
+        <div className="bar-5 w-[10%] h-screen bg-zinc-900" />
+        <div className="bar-6 w-[10%] h-screen bg-zinc-900" />
+        <div className="bar-7 w-[10%] h-screen bg-zinc-900" />
+        <div className="bar-8 w-[10%] h-screen bg-zinc-900" />
+        <div className="bar-9 w-[10%] h-screen bg-zinc-900" />
+        <div className="bar-10 w-[10%] h-screen bg-zinc-900" />
       </h1>
 
       <div className="container mx-auto relative">
@@ -127,7 +127,7 @@ export default function Page() {
           </span>
         </div>
 
-        <div className="w-full aspect-[6/2] mx-auto rounded-xl">
+        <div className="w-full aspect-6/2 mx-auto rounded-xl">
           <img
             src="/test.jpg"
             alt=""

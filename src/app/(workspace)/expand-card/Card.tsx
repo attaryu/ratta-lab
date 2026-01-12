@@ -83,7 +83,7 @@ export default function Card({ data, isAnimated, isActive, setActive, setAnimate
   }
 
   return (
-    <section className="h-[550px] grow flex flex-col basis-14 items-center justify-center overflow-hidden bg-white" onClick={clickHandler} ref={cardContainerRef}>
+    <section className="h-137.5 grow flex flex-col basis-14 items-center justify-center overflow-hidden bg-white" onClick={clickHandler} ref={cardContainerRef}>
       {/* header */}
       <div className="flex justify-between items-center p-2 w-full" ref={headerRef}>
         <p className="font-semibold uppercase">Project {data.id}</p>

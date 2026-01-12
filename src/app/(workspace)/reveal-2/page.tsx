@@ -106,7 +106,7 @@ export default function Page() {
           <img
             src="/test.jpg"
             alt=""
-            className="aspect-[8/2] w-full object-cover mb-8"
+            className="aspect-8/2 w-full object-cover mb-8"
           />
           <h1 className="font-bebas-neue text-[18vw] leading-none">
             MALEFI STUDIO.

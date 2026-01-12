@@ -1,9 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
-@layer utilities {
-  .debug {
-    @apply outline outline-1 outline-red-600
-  }
+@theme inline {
+  --font-poppins: var(--poppins);
+  --font-bebas-neue: var(--bebas-neue);
+}
+
+@utility debug {
+  @apply outline-solid outline-1 outline-red-600;
 }
